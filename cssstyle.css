@@ -5,9 +5,26 @@ p{
 div p{
     color:blue;
 }
-.serhii{ 
+.header-of-main-page{ 
     color:green;
-    text-align: center;
-    .alignment-baseline: red
+    text-align: center;}
+.header-of-main-page a{	
+	text-transform: uppercase;
+	color: yellow;
 }
-      
+
+.toolbar li {
+    display: inline;
+    background-color: #EEE;
+    border: 1px solid;
+    border-color: #F3F3F3 #BBB #BBB #F3F3F3;
+    padding: .5em;
+}
+.red {
+    color:red;}
+.blue{
+    color:blue;
+}
+.green {
+    color: green;
+}
