@@ -46,3 +46,11 @@ div p{
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+	
+.right { 
+width: 15%; 
+height: 300%; 
+float: right; 
+background-color: #0292BF; 
+text-align: center; 
+}
