@@ -79,3 +79,48 @@ footer {
     from {right: 0px;}
     to {right: 500px;}
 }
+ul.menu {
+	height:85px;
+	background:aqua;
+	margin:0;
+	font-family:Arial,sans-serif;
+	}
+	
+ul.menu li {
+	padding-left:10px;
+	display:inline-block;
+	list-style:none;
+	width:150 px;
+	text-align:center;
+	position:relative;
+	left: 20%;
+	float:left;
+	}
+	
+.icon {
+	font-size:3em;
+	display:block;
+	transition:1s;
+	
+	}
+ul.menu li a{
+	color:#fff;
+	text-decoration:none;
+	
+	}
+	
+ul.menu li a:hover {
+	background: #10ede9;
+	color:#000;
+	}
+	
+.menu a:hover .icon {
+	text-shadow: 0 0 15px #ff7900,
+				 0 0 15px #ff7900,
+				 0 0 15px #ff7900,
+				 0 0 15px #ff7900,
+				 0 0 15px #ff7900,
+				 0 0 15px #ff7900;
+	color: #ffe71a;
+	-webkit-transform:rotate(360deg);
+	}
